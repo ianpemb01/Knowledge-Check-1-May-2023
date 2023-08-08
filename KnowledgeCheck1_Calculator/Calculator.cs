@@ -8,22 +8,22 @@ namespace KnowledgeCheck1_Calculator
 {
     public class Calculator
     {
-        public int Add(int first, int second)
+        public decimal Add(decimal first, decimal second)
         {
             return first + second;
         }
 
-        public int Subtract(int first, int second)
+        public decimal Subtract(decimal first, decimal second)
         {
             return first - second;
         }
 
-        public int Multiply(int first, int second)
+        public decimal Multiply(decimal first, decimal second)
         {
-            throw new NotImplementedException();
+            return first * second;
         }
 
-        public double Divide(double first, double second)
+        public decimal Divide(decimal first, decimal second)
         {
             return first / second;
         }
